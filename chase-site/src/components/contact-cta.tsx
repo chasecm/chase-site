@@ -1,7 +1,7 @@
 export function ContactCTA() {
   return (
     <section id="contact" className="mx-auto max-w-6xl px-6 py-24">
-      <div className="relative overflow-hidden rounded-[2rem] border border-white/[0.09] bg-gradient-to-br from-white/[0.07] to-white/[0.02] p-10 md:p-14">
+      <div className="relative overflow-hidden rounded-4xl border border-white/9 bg-linear-to-br from-white/7 to-white/2 p-10 md:p-14">
         <div className="pointer-events-none absolute right-0 top-0 h-64 w-64 -translate-y-1/2 translate-x-1/2 rounded-full bg-cyan-500/10 blur-3xl" />
 
         <p className="text-[0.65rem] uppercase tracking-[0.26em] text-white/35">Contact</p>
@@ -27,6 +27,14 @@ export function ContactCTA() {
             className="rounded-full border border-white/15 bg-transparent px-6 py-3 text-sm font-medium text-white transition hover:bg-white hover:text-black"
           >
             View GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/chase-mccreary-9a5a78208/"
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-full border border-white/15 bg-transparent px-6 py-3 text-sm font-medium text-white transition hover:bg-white hover:text-black"
+          >
+            LinkedIn
           </a>
         </div>
       </div>

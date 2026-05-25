@@ -13,6 +13,7 @@ export function Footer() {
                 ["Work", "#work"],
                 ["Contact", "#contact"],
                 ["GitHub", "https://github.com/chasecm"],
+                ["LinkedIn", "https://www.linkedin.com/in/chase-mccreary-9a5a78208/"],
               ] as const
             ).map(([label, href]) => (
               <a
@@ -28,7 +29,7 @@ export function Footer() {
           </nav>
         </div>
 
-        <div className="mt-8 border-t border-white/[0.05] pt-6">
+        <div className="mt-8 border-t border-white/5 pt-6">
           <p className="text-[0.62rem] text-white/25">
             &copy; {new Date().getFullYear()} Chase McCreary. All rights reserved.
           </p>
